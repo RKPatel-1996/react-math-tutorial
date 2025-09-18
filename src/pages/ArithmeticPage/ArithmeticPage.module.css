@@ -1,0 +1,91 @@
+/* src/pages/ArithmeticPage/ArithmeticPage.module.css */
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid #34d399; /* emerald-400 */
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-blue-dark);
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--text-light);
+  margin-top: 0.5rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  margin-bottom: 1.5rem;
+}
+
+.rulesContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.ruleCard {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.ruleCard h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.ruleCard p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.ruleMultiply {
+  background-color: #dcfce7;
+  color: #166534;
+} /* green */
+.ruleDivide {
+  background-color: #fef3c7;
+  color: #92400e;
+} /* amber */
+
+.tableContainer {
+  overflow-x: auto; /* Allows table to be scrolled on small screens */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-light);
+}
+.table th {
+  background-color: #f1f5f9; /* slate-100 */
+  font-weight: 600;
+}
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+.table tbody tr:hover {
+  background-color: #f8fafc; /* slate-50 */
+}
+
+@media (min-width: 768px) {
+  .rulesContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}

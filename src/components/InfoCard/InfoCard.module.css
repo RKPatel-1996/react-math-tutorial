@@ -1,0 +1,41 @@
+/* src/components/InfoCard/InfoCard.module.css */
+.card {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.card p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Color Variants */
+.blue {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+.green {
+  background-color: #dcfce7;
+  color: #166534;
+}
+.yellow {
+  background-color: #fef9c3;
+  color: #854d0e;
+}
+.purple {
+  background-color: #ede9fe;
+  color: #5b21b6;
+}
+.red {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+.pink {
+  background-color: #fce7f3;
+  color: #9d174d;
+}

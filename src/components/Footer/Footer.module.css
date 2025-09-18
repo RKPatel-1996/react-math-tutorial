@@ -1,0 +1,13 @@
+/* src/components/Footer/Footer.module.css */
+.footer {
+  background-color: #e2e8f0; /* slate-200 */
+  margin-top: auto; /* Pushes footer to the bottom */
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  color: var(--text-light);
+  font-size: 0.875rem;
+}

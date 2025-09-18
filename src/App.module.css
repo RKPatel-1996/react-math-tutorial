@@ -1,0 +1,28 @@
+/* src/App.module.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex-grow: 1;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.notFound {
+  text-align: center;
+  padding: 4rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-light);
+}
+
+@media (min-width: 768px) {
+  .mainContent {
+    padding: 2.5rem 1.5rem;
+  }
+}
